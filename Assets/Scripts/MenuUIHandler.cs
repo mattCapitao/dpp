@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+
+[DefaultExecutionOrder(1000)]
 public class MenuUIHandler : MonoBehaviour
 
 {

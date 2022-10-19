@@ -37,6 +37,7 @@ public class IOManager : MonoBehaviour
     public void LoadPlayerData()
     {
         string saveFilePath = Application.persistentDataPath + $"/playerdata.json";
+        Debug.Log(saveFilePath);
 
         if (File.Exists(saveFilePath))
         {
